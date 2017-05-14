@@ -6,6 +6,7 @@ services:
   - docker
 before_install:
   - echo before_install
+  - cd project
 install:
   - echo install
   - pip install docker-py
