@@ -6,6 +6,7 @@ any http configuration parameters they wish to apply their site. Any number of
 sites can be added with configurations of your choice.
 
 [![Build Status](https://travis-ci.org/tkl/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/tkl/ansible-role-nginx)
+[![CircleCI](https://circleci.com/gh/tklo/ansible-role-nginx.svg?style=shield)](https://circleci.com/gh/tklo/ansible-role-nginx)
 [![Ansible Galaxy](https://img.shields.io/ansible/role/466.svg)](https://galaxy.ansible.com/tkl/nginx/)
 
 Requirements
