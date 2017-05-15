@@ -5,9 +5,9 @@ This role installs and configures the nginx web server. The user can specify
 any http configuration parameters they wish to apply their site. Any number of
 sites can be added with configurations of your choice.
 
-[![Build Status](https://travis-ci.org/tkl/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/tkl/ansible-role-nginx)
+[![Build Status](https://travis-ci.org/tklo/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/tkl/ansible-role-nginx)
 [![CircleCI](https://circleci.com/gh/tklo/ansible-role-nginx.svg?style=shield)](https://circleci.com/gh/tklo/ansible-role-nginx)
-[![Ansible Galaxy](https://img.shields.io/ansible/role/466.svg)](https://galaxy.ansible.com/tkl/nginx/)
+[![Ansible Galaxy](https://img.shields.io/badge/role-tklo.ansible--role--nginx-yellow.svg)](https://galaxy.ansible.com/tklo/ansible-role-nginx/)
 
 Requirements
 ------------
