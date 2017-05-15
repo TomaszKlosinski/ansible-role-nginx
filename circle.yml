@@ -1,0 +1,13 @@
+machine:  
+  python:
+    version: 2.7.10
+
+dependencies:  
+  pre:
+    - pip install docker molecule
+
+deployment:  
+  prod:
+    branch: master
+    commands:
+      - molecule test
