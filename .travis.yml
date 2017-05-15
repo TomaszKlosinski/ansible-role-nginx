@@ -6,7 +6,9 @@ services:
   - docker
 before_install:
   - echo before_install
-  - cd ansible-role-nginx
+  - pwd
+  - ls -l .
+  - ls -l *
 install:
   - echo install
   - pip install docker-py
