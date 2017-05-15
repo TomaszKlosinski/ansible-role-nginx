@@ -1,12 +1,12 @@
-machine:  
+machine: 
   python:
     version: 2.7.10
 
-dependencies:  
+dependencies:
   pre:
     - pip install docker molecule
 
-deployment:  
+deployment:
   prod:
     branch: master
     commands:
