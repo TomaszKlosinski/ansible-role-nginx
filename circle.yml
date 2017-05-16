@@ -6,8 +6,6 @@ machine:
 
 dependencies:
   pre:
-    - sudo apt-get -qq update
-    - sudo apt-get install -o Dpkg::Options::="--force-confold" --force-yes -y docker-engine
     - pip install docker
     - pip install molecule
 
