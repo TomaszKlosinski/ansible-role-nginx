@@ -1,4 +1,15 @@
 ---
+molecule:
+  raw_ssh_args:
+    - -o StrictHostKeyChecking=false
+    - -o UserKnownHostsFile=/dev/null
+ansible:
+  host_key_checking: False
+  raw_ssh_args:
+    - -o UserKnownHostsFile=/dev/null
+    - -o IdentitiesOnly=yes
+    - -o ControlMaster=auto
+    - -o ControlPersist=60s
 dependency:
   name: galaxy
 driver:

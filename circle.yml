@@ -13,4 +13,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - molecule test
+      - molecule --debug test
